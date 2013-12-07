@@ -31,5 +31,6 @@ $ make test
 [MIT license](http://www.opensource.org/licenses/mit-license.php).
 
 See the `LICENSE`.
+
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Frapwings/fendjs-router-server/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
