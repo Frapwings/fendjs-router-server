@@ -5,7 +5,7 @@ test:
 		./test/index.js
 
 test-cov: lib-cov
-	@FENDJS_ROUTER=1 $(MAKE) test REPORTER=html-cov > ./coverage.html
+	@FENDJS_ROUTER_SERVER=1 $(MAKE) test REPORTER=html-cov > ./coverage.html
 	@rm -rf ./lib-cov
 
 test-coveralls: lib-cov
