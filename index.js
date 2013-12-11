@@ -37,7 +37,7 @@ ServerRouter.prototype.__proto__ = Router.prototype;
  * Dispatch route.
  *
  * @return {ServerRouter}
- * @api public
+ * @api private
  */
 
 ServerRouter.prototype.dispatch = function () {

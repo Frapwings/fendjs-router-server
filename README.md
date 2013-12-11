@@ -12,15 +12,37 @@ $ npm install fendjs-router-server
 
 # Example
 
-TODO:
+```js
+var connect = require('connect');
+var http = require('http');
+var ServerRouter = require('fendjs-router-server');
+
+var router = new ServerRouter();
+router.route('get', '/', function () {
+  this.res.end('home');
+});
+router.router('get', '/users/:name', function () {
+  this.res.end('foo');
+});
+
+var app = connect()
+  .use(router.middleware)
+
+http.createServer(app).listen(3000);
+```
 
 # API
 
-TODO:
+## ServerRouter(options)
+
+Initialize a new `ServerRouter` with the given `options`.
+
+## ServerRouter#middleware
+
+Return connect middleware.
 
 # Testing
 
-TODO:
 ```
 $ npm install
 $ make test

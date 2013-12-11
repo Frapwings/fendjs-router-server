@@ -1,7 +1,7 @@
 {
   "name": "fendjs-router-server",
   "description": "Fend.js router for server",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/Frapwings/fendjs-router-server.git"
